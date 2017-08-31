@@ -1,0 +1,1 @@
+# slackspace-angular2-spring-keycloak

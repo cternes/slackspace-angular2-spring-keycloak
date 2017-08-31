@@ -1,0 +1,41 @@
+<div class="container">
+
+    <div class="page-content">
+        <h4>Angular is {{status}}</h4>
+        <h5>You're logged in as:</h5>
+        
+        Id: {{profile.id}}
+        <p/>
+        Username: {{profile.username}}
+        <p/>
+        Email: {{profile.email}}
+        <p/>
+        Full Name: {{profile.firstName}} {{profile.lastName}}
+        
+        <p/>
+        
+        <button name="Logout" ng-click="logout()">Logout</button>
+        
+        <div ng-show="isManager">
+        	<h3>Only managers can see this</h3>
+	        <button name="getContracts" ng-click="getContracts()">Call backend service</button>
+        	<p/>
+	        
+	        Contracts:
+	        <ul ng-repeat="contract in contracts">
+	        	<li>{{contract.name}}</li>
+	        </ul>
+        </div>
+        
+        <div >
+        	<h3>Only admins can see this</h3>
+	        <button name="getContracts" ng-click="getContracts()">Call backend service</button>
+        	<p/>
+	        
+	        Contracts:
+	        <ul ng-repeat="contract in contracts">
+	        	<li>{{contract.name}}</li>
+	        </ul>
+        </div>
+    </div>
+</div>

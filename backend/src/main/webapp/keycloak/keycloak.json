@@ -1,0 +1,8 @@
+{
+  "realm": "Pesc-Realm",
+  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmKuc0dv7cSuIdWEU3Ri1Ake9Yw40k48ahg2wcg66BBGNVgI3c6Vw5xjPM0EfO2oLUnc46uP6XGCDUn0SE+KA0nwPSfN222SxtVRNmYGq9KuCyz/lUVoKQ8BDv4WBkQHhfJBPrHZVprbwv1osFaH+wjP8thbq6UFXy2fjwRtckph2i+jtQsg56fLWibcQKgBDADu92WEwz9nPRRv8Ytn8BQ+/VsnoD/M2nrQ0ExIE44eYjsvl1yYVD3JWpqD7RA6IdhICMCHsRnpDBUCPd61jJMpX8eu9lRdgfxwjQMRYXAwf0FJ2516SWAKp/43P+6p/ZKwCq3w5oV6N7psts41IMQIDAQAB",
+  "auth-server-url": "http://htkasrv097:7093/auth",
+  "ssl-required": "external",
+  "resource": "pesc-frontend",
+  "public-client": true
+}
